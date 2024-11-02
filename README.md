@@ -1,2 +1,2 @@
-# BIJ-Gaming
-Gaming website!
+# BIJ-Gaming  
+### - Boluwatife Adeshina, Jayden Lim, Ishmael Percy
