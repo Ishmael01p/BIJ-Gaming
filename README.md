@@ -4,6 +4,7 @@ Goal: The objective of this project is to collaboratively design, build, and dep
 ## Running Next.js development server: 
     Run the followiing commands in terminal:
         - "cd gaming-app" # if needed
+        - "npm install"
         - "npm run dev" 
 ## Main Branch
 - Currently just the Next.js gaming-app
