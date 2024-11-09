@@ -18,4 +18,4 @@ Goal: The objective of this project is to collaboratively design, build, and dep
 ### JS vs JSX 
 - JSX is a syntax extension for JavaScript that allows you to write HTML-like code within JavaScript. It introduces XML-like tags and attributes to create React elements. JS, on the other hand, is plain JavaScript code without any special syntax or extensions.
 - https://medium.com/@ykods/is-js-and-jsx-the-same-97e4df644609#:~:text=Syntax%3A%20JSX%20is%20a%20syntax,any%20special%20syntax%20or%20extensions.
-     
+    
