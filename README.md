@@ -8,8 +8,13 @@ Goal: The objective of this project is to collaboratively design, build, and dep
         - "npm run dev" 
 ## Main Branch
 - Currently just the React gaming-app
-    - page.js needs main div cleared - just remove content not main div
-    - globals.css needs background attribiute in body removed   
+    - src/main.jsx contains just routing information utilizing the createBrowserRouter library
+    - src/pages/HomePage.jsx - empty 
+    - src/pages/GamesPage.jsx - empty
+    - src/pages/ErrorPage.jsx - currently handles user made routing errors and routing back to HomePage.jsx
+## HP branch
+- The Goal of this branch is developing the HomePage
+- Potential using a simple game like tic-tac-toe in order to design the UI
 ## React + Vite
 ### Documentation - Recommend glancing over foundations links 
 - React Documentation: https://react.dev/
@@ -48,12 +53,26 @@ Goal: The objective of this project is to collaboratively design, build, and dep
     export default Greeting;
 - JSX Component:
 
-  ```JSX
-  import React from 'react';
+   ```JSX
+      import React from 'react';
+      
+      function Greeting(props) {
+          return <h1>Hello, {props.name}</h1>;
+        }
+       export default Greeting;
+     ```JSX
 
-    function Greeting(props) {
-      return <h1>Hello, {props.name}</h1>;
-    }
-
-    export default Greeting;
-  ```JSX    
+## Future Goals
+### Potential Games List 
+- Difficulty by ability to complete
+- Easy:
+    - Tic-Tac-Toe
+    - Rock Paper Scissors
+    - 2048
+    - Matching Games
+    - HangMan
+    - MineSweeper
+- Medium / Hard
+    - 3D games
+    - Real-Time Multiplayer Games
+   
