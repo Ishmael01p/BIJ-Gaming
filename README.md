@@ -24,7 +24,36 @@ Goal: The objective of this project is to collaboratively design, build, and dep
 - React components are regular JS functions execpt:
     - Their names always begin with a capital letter.
     - They return JSX markup.
+- Common practice to have a 1-to-1 relationship between file and React Components where the file name corresponds to the component name.
+
+  ```JSX
+      function Car() {
+          return <h2>Hi, I am a Car!</h2>;
+        }
+
+        export default Car;
+  ```
+     
 ### JS vs JSX 
 - JSX is a syntax extension for JavaScript that allows you to write HTML-like code within JavaScript. It introduces XML-like tags and attributes to create React elements. JS, on the other hand, is plain JavaScript code without any special syntax or extensions.
-- https://medium.com/@ykods/is-js-and-jsx-the-same-97e4df644609#:~:text=Syntax%3A%20JSX%20is%20a%20syntax,any%20special%20syntax%20or%20extensions.
-    
+- Vanilla JS Component:
+  
+  ```JavaScript
+  import React from 'react';
+
+    function Greeting(props) {
+      return React.createElement('h1', null, 'Hello, ' + props.name);
+    }
+  
+    export default Greeting;
+- JSX Component:
+
+  ```JSX
+  import React from 'react';
+
+    function Greeting(props) {
+      return <h1>Hello, {props.name}</h1>;
+    }
+
+    export default Greeting;
+  ```JSX    
